@@ -12,4 +12,5 @@ namespace App\Dto;
 
 final class BookInput {
     public $isbn;
+    public $name;
 }
