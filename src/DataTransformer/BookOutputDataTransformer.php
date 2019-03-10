@@ -16,6 +16,7 @@ final class BookOutputDataTransformer implements DataTransformerInterface
     {
         $output = new BookOutput();
         $output->name = $data->name;
+//        $output->isbn = $data->isbn;
         return $output;
     }
 
